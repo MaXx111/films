@@ -10,7 +10,7 @@ export function Stars({count}: StarsProps) {
     let print = false;
     let res = [];
 
-    if(count <= 5 || count >= 0 ) {
+    if(count <= 5 && count >= 0 ) {
 
         for(let i = 0; i < count; i++) {
             let id = v4();
